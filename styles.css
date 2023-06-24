@@ -1,0 +1,64 @@
+:root {
+    --orange-color: #FF521B;
+    --light-gray-color: #55605E;
+    --blue-color-buttons: #186E99;
+    --background-color-section: rgba(227,225,220,1);
+    --white-color: #fff;
+    --font-size: 14px;
+    --font-size-m: 18px;
+    --font-size-l: 26px;
+    --font-size-xl: 32px;
+    --font-size-xxl: 42px;
+    --font-size-xxxl: 60px;
+    --font-size-mobile: 14px;
+    --font-size-mobile-m: 16px;
+    --font-size-mobile-l: 22px;
+    --font-size-mobile-xl: 28px;
+    --font-size-mobile-xxl: 32px;
+    --font-size-mobile-xxxl: 40px;
+}
+
+/* General Settings */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header Section */
+
+.header__container {
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: var(--white-color);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.header__box {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-items: center;
+    align-items: center;
+}
+
+#logoImage {
+    width: 100%;
+}
+
+#HumankindnessImage {
+    width: 100%;
+}
+
+/* Navigation Menu */
+
+.navigation__menu {
+    display: flex;
+    justify-content: end;
+    gap: 35px
+}
